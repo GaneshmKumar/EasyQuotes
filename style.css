@@ -1,0 +1,59 @@
+/*
+* @Author: GaNeShKuMaRm
+* @Date:   2017-03-09 21:49:36
+* @Last Modified by:   GaNeShKuMaRm
+* @Last Modified time: 2017-03-12 01:01:44
+*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body, .btn {
+    transition: background-color 3s;
+    font-family: 'Raleway';
+}
+
+p {
+  color: #fff;
+  font-family: 'Kaushan Script';
+  text-align: center;
+  font-size: 60px;
+  margin-top: 50px;
+  margin-left: -30px;
+}
+  #background {
+  transition: color 1s;
+}
+
+#background {
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 20px 50px;
+  width: 90vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 2px #fff;
+}
+
+.btn {
+    color: #fff;
+    border-color: transparent;
+}
+
+.btn:hover, .btn:focus {
+  color: #fff;
+}
+
+#quote, .fa-quote-left {
+  font-size: 30px;
+}
+
+dd {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Montserrat';
+  font-style: italic;
+}
+.fa-quote-left {
+
+}
