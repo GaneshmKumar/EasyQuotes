@@ -2,4 +2,4 @@
 A Random Quote Generator
 
 #Live Preview
-<a href="http://ganeshmkumar.github.io/RandomQuotes/">Random Quotes - Codepen</a>
+<a href="http://ganeshmkumar.github.io/RandomQuotes/">Random Quotes</a>
