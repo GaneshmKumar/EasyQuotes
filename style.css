@@ -11,27 +11,41 @@ body, .btn {
     font-family: 'Raleway';
 }
 
-p {
-  color: #fff;
-  font-family: 'Kaushan Script';
+h1 {
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 40px;
   text-align: center;
-  font-size: 60px;
   margin-top: 50px;
-  margin-left: -30px;
-}
-  #background {
-  transition: color 1s;
 }
 
+.dev {
+  color: #ffffff;
+  text-align: center;
+}
+
+.dev a {
+  font-family: 'Montserrat';
+  text-decoration: none;
+  color: #fafafa;
+  transition: linear 0.3s;
+}
+
+.dev a:hover {
+  text-decoration: none;
+  color: #616161;
+}
 #background {
+  transition: color 1s;
+  position: relative;
+  top: 30px;
+}
+
+#background div {
   border-radius: 3px;
   background-color: #fff;
-  padding: 20px 50px;
-  width: 90vh;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 20px 25px;
   box-shadow: 0 0 2px #fff;
 }
 
@@ -53,7 +67,4 @@ dd {
   margin-bottom: 15px;
   font-family: 'Montserrat';
   font-style: italic;
-}
-.fa-quote-left {
-
 }

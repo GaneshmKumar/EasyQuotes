@@ -26,9 +26,9 @@ function displayQuote() {
         },
         url: 'https://andruxnet-random-famous-quotes.p.mashape.com/cat=',
         success: function(response) {
-          var r = JSON.parse(response);
-          $('.fa-quote-left').animate({opacity: 0}, 500, function() {
-                $('.fa-quote-left').animate({opacity: 1}, 500);
+          var r = response;
+          $('#background .fa-quote-left').animate({opacity: 0}, 500, function() {
+                $('#background .fa-quote-left').animate({opacity: 1}, 500);
           });
 
           $('#quote').animate({opacity: 0}, 500, function() {
