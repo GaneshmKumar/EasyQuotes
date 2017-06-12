@@ -1,5 +1,5 @@
-# Random Quotes
+# Insta Quotes
 A Random Quote Generator
 
-#Live Preview
-<a href="http://ganeshmkumar.github.io/RandomQuotes/">Random Quotes</a>
+# Preview
+<a href="http://ganeshmkumar.github.io/InstaQuotes/">Insta Quotes</a>
